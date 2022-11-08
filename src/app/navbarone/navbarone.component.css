@@ -19,8 +19,8 @@ body{
     padding: .20rem .50rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: transparent;
-    border: 1px solid black;
+    background-color: black;
+    border: 1px solid rgb(0, 0, 0);
 
     }
 
@@ -34,14 +34,14 @@ body{
       width: 100%;
     position: absolute;
     height: 100%;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
     transition: 1s all;
 }
 
 .navbar-brand{
  /* -------------------COLOR DEL LOGOTIPO-------------------*/
-  color:blue; 
+  color:rgb(255, 255, 255); 
   font-family: 'Allerta Stencil', sans-serif;
   margin-bottom: 4px;
   font-size: 27px;
@@ -61,8 +61,8 @@ body{
 
 .navbar-red{
 
-  background-color: orange;
-  color: green;
+  background-color: rgb(243,106,36,255);
+  color: rgba(243,106,36,255);
 
 }
 

@@ -9,6 +9,10 @@ import { CardComponent } from './card/card.component';
 import { NavbartwoComponent } from './navbartwo/navbartwo.component';
 import { FooterComponent } from './footer/footer.component';
 import { ButtonWsComponent } from './button-ws/button-ws.component';
+import { IndexComponent } from './index/index.component';
+import { ProductosComponent } from './productos/productos.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { ButtonWsComponent } from './button-ws/button-ws.component';
     CardComponent,
     NavbartwoComponent,
     FooterComponent,
-    ButtonWsComponent
+    ButtonWsComponent,
+    IndexComponent,
+    ProductosComponent,
+    NosotrosComponent,
+    
   ],
   imports: [
     BrowserModule,

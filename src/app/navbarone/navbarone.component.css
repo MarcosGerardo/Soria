@@ -53,9 +53,7 @@ body{
 
 .navbar-brand{
  /* -------------------COLOR DEL LOGOTIPO-------------------*/
-
   color:#ffffff; 
-=======
   color:rgb(255, 255, 255); 
 
   font-family: 'Allerta Stencil', sans-serif;

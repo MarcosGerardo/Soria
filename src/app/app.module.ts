@@ -12,6 +12,7 @@ import { ButtonWsComponent } from './button-ws/button-ws.component';
 import { IndexComponent } from './index/index.component';
 import { ProductosComponent } from './productos/productos.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
+import { CuerpoNosotrosComponent } from './cuerpo-nosotros/cuerpo-nosotros.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
     IndexComponent,
     ProductosComponent,
     NosotrosComponent,
+    CuerpoNosotrosComponent,
     
   ],
   imports: [

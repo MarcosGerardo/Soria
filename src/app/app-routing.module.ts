@@ -6,10 +6,12 @@ import { FooterComponent } from './footer/footer.component';
 import { IndexComponent } from './index/index.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ProductosComponent } from './productos/productos.component';
+import { ContactosComponent } from './contactos/contactos.component';
 
 const routes: Routes = [
   { path: "Nosotros", component: NosotrosComponent},
   { path: "productos", component: ProductosComponent},
+  { path: "contactos", component: ContactosComponent},
   { path: "**", component: IndexComponent}
 ];
 

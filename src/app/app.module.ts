@@ -15,6 +15,8 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ContactosComponent } from './contactos/contactos.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,8 +29,7 @@ import { ContactosComponent } from './contactos/contactos.component';
     IndexComponent,
     ProductosComponent,
     NosotrosComponent,
-    ContactosComponent,
-    
+    ContactosComponent
   ],
   imports: [
     BrowserModule,

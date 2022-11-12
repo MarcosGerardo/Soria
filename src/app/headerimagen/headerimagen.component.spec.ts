@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CuerpoNosotrosComponent } from './cuerpo-nosotros.component';
+import { HeaderimagenComponent } from './headerimagen.component';
 
-describe('CuerpoNosotrosComponent', () => {
-  let component: CuerpoNosotrosComponent;
-  let fixture: ComponentFixture<CuerpoNosotrosComponent>;
+describe('HeaderimagenComponent', () => {
+  let component: HeaderimagenComponent;
+  let fixture: ComponentFixture<HeaderimagenComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CuerpoNosotrosComponent ]
+      declarations: [ HeaderimagenComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CuerpoNosotrosComponent);
+    fixture = TestBed.createComponent(HeaderimagenComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

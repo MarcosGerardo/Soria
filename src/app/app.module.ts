@@ -13,6 +13,8 @@ import { IndexComponent } from './index/index.component';
 import { ProductosComponent } from './productos/productos.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ContactosComponent } from './contactos/contactos.component';
+import { NosotroscontenidoComponent } from './nosotroscontenido/nosotroscontenido.component';
+import { HeaderimagenComponent } from './headerimagen/headerimagen.component';
 
 
 
@@ -29,7 +31,9 @@ import { ContactosComponent } from './contactos/contactos.component';
     IndexComponent,
     ProductosComponent,
     NosotrosComponent,
-    ContactosComponent
+    ContactosComponent,
+    NosotroscontenidoComponent,
+    HeaderimagenComponent
   ],
   imports: [
     BrowserModule,

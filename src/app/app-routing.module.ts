@@ -8,6 +8,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ProductosComponent } from './productos/productos.component';
 import { ContactosComponent } from './contactos/contactos.component';
 
+
 const routes: Routes = [
   { path: "Nosotros", component: NosotrosComponent},
   { path: "productos", component: ProductosComponent},

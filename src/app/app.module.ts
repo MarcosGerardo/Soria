@@ -19,7 +19,8 @@ import { BodycontactoComponent } from './bodycontacto/bodycontacto.component';
 import { ContenidosproductosComponent } from './contenidosproductos/contenidosproductos.component';
 import { BttnWSComponent } from './bttn-ws/bttn-ws.component';
 import { NosotrosBodyComponent } from './nosotros-body/nosotros-body.component';
-
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -41,11 +42,13 @@ import { NosotrosBodyComponent } from './nosotros-body/nosotros-body.component';
     BodycontactoComponent,
     ContenidosproductosComponent,
     BttnWSComponent,
-    NosotrosBodyComponent
+    NosotrosBodyComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

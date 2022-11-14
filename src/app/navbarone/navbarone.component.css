@@ -20,8 +20,8 @@ body{
     font-size: 1.25rem;
     line-height: 1;
 
-    background-color: rgb(0, 0, 0);
-    border: 1px solid rgb(0, 0, 0);
+    background-color:orange;
+    border: 1px solid orange;
  /* Ver en negro los botones*/
     }
     a:hover{

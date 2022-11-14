@@ -16,6 +16,7 @@ import { ContactosComponent } from './contactos/contactos.component';
 import { NosotroscontenidoComponent } from './nosotroscontenido/nosotroscontenido.component';
 import { HeaderimagenComponent } from './headerimagen/headerimagen.component';
 import { BodycontactoComponent } from './bodycontacto/bodycontacto.component';
+import { ContenidosproductosComponent } from './contenidosproductos/contenidosproductos.component';
 
 
 
@@ -35,7 +36,8 @@ import { BodycontactoComponent } from './bodycontacto/bodycontacto.component';
     ContactosComponent,
     NosotroscontenidoComponent,
     HeaderimagenComponent,
-    BodycontactoComponent
+    BodycontactoComponent,
+    ContenidosproductosComponent
   ],
   imports: [
     BrowserModule,

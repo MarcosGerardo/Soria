@@ -17,6 +17,8 @@ import { NosotroscontenidoComponent } from './nosotroscontenido/nosotroscontenid
 import { HeaderimagenComponent } from './headerimagen/headerimagen.component';
 import { BodycontactoComponent } from './bodycontacto/bodycontacto.component';
 import { ContenidosproductosComponent } from './contenidosproductos/contenidosproductos.component';
+import { BttnWSComponent } from './bttn-ws/bttn-ws.component';
+import { NosotrosBodyComponent } from './nosotros-body/nosotros-body.component';
 
 
 
@@ -37,7 +39,9 @@ import { ContenidosproductosComponent } from './contenidosproductos/contenidospr
     NosotroscontenidoComponent,
     HeaderimagenComponent,
     BodycontactoComponent,
-    ContenidosproductosComponent
+    ContenidosproductosComponent,
+    BttnWSComponent,
+    NosotrosBodyComponent
   ],
   imports: [
     BrowserModule,

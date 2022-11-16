@@ -9,6 +9,20 @@ import { CardComponent } from './card/card.component';
 import { NavbartwoComponent } from './navbartwo/navbartwo.component';
 import { FooterComponent } from './footer/footer.component';
 import { ButtonWsComponent } from './button-ws/button-ws.component';
+import { IndexComponent } from './index/index.component';
+import { ProductosComponent } from './productos/productos.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+import { ContactosComponent } from './contactos/contactos.component';
+import { NosotroscontenidoComponent } from './nosotroscontenido/nosotroscontenido.component';
+import { HeaderimagenComponent } from './headerimagen/headerimagen.component';
+import { BodycontactoComponent } from './bodycontacto/bodycontacto.component';
+import { ContenidosproductosComponent } from './contenidosproductos/contenidosproductos.component';
+import { BttnWSComponent } from './bttn-ws/bttn-ws.component';
+import { NosotrosBodyComponent } from './nosotros-body/nosotros-body.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +32,23 @@ import { ButtonWsComponent } from './button-ws/button-ws.component';
     CardComponent,
     NavbartwoComponent,
     FooterComponent,
-    ButtonWsComponent
+    ButtonWsComponent,
+    IndexComponent,
+    ProductosComponent,
+    NosotrosComponent,
+    ContactosComponent,
+    NosotroscontenidoComponent,
+    HeaderimagenComponent,
+    BodycontactoComponent,
+    ContenidosproductosComponent,
+    BttnWSComponent,
+    NosotrosBodyComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

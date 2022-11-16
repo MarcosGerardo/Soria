@@ -8,7 +8,7 @@ body{
 .navbar-nav>li>a{
 
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 15px;
   margin-right:30px;
   color: rgb(255, 255, 255);
 }
@@ -20,8 +20,8 @@ body{
     font-size: 1.25rem;
     line-height: 1;
 
-    background-color:orange;
-    border: 1px solid orange;
+    background-color:rgb(0, 110, 255);
+    border: 1px solid rgb(255, 255, 255);
  /* Ver en negro los botones*/
     }
     a:hover{
@@ -76,8 +76,8 @@ body{
 
 .navbar-red{
 
-  background-color: rgb(243,106,36,255);
-  color: rgba(243,106,36,255);
+  background-color: rgba(255,115,0,255);
+  color: rgba(255,115,0,255);
 
 }
 

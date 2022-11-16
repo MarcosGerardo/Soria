@@ -1,6 +1,6 @@
 @media (max-width:320px){
   .phone-no {
-      width:50%;
+      width:400%;
       height: 50%;
       object-fit: cover;
       object-position: bottom;

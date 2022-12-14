@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "soriadb-47401"
-  }
+    "default": "soriabd-3ce2d",
+    "soriabd": "soriabd-3ce2d"
+  },
+  "targets": {},
+  "etags": {}
 }

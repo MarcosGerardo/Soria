@@ -8,6 +8,8 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ProductosComponent } from './productos/productos.component';
 import { ContactosComponent } from './contactos/contactos.component';
 import { LoginComponent } from './login/login.component';
+import {NewPlaceComponent} from './componentes/new-place/new-place.component';
+import {BackComponent}from'./back/back.component';
 
 
 const routes: Routes = [
@@ -19,6 +21,7 @@ const routes: Routes = [
   { path: "index", component: IndexComponent},
   { path: "contactos", component: ContactosComponent},
   { path: "login", component: LoginComponent},
+  { path: "place", component: BackComponent},
   { path: "**", component: IndexComponent}
 ];
 

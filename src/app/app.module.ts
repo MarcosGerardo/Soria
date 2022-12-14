@@ -21,7 +21,14 @@ import { BttnWSComponent } from './bttn-ws/bttn-ws.component';
 import { NosotrosBodyComponent } from './nosotros-body/nosotros-body.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
-
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { NewPlaceComponent } from './componentes/new-place/new-place.component';
+import { PlaceListComponent } from './componentes/place-list/place-list.component';
+import { PlaceMapComponent } from './componentes/place-map/place-map.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { BackComponent } from './back/back.component';
 
 
 @NgModule({
@@ -43,12 +50,19 @@ import { FormsModule } from '@angular/forms';
     ContenidosproductosComponent,
     BttnWSComponent,
     NosotrosBodyComponent,
-    LoginComponent
+    LoginComponent,
+    NewPlaceComponent,
+    PlaceListComponent,
+    PlaceMapComponent,
+    BackComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideFirestore(() => getFirestore())
   ],
   providers: [],
   bootstrap: [AppComponent]
